@@ -9,8 +9,12 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=12cxJZU0M9y_2SNCGMI2f3xHrEprCgTS-'
-export_file_name ='resnet50.pkl'
+
+export_file_url = 'https://drive.google.com/uc?export=download&id=1kpGNZP7zKuCcnIHU6f1rSSR4jJGSW_f9'
+export_file_name = 'TEST.pkl'
+
+# classes = ['CDR', 'CNVM', 'CWS', 'DBH', 'DRU', 'FH', 'HE', 'MD', 'ODE', 'PH']
+
 
 classes = ['CDR', 'CNVM', 'CWS', 'DBH', 'DRU', 'FH', 'HE', 'MD', 'ODE', 'PH']
 path = Path(__file__).parent
